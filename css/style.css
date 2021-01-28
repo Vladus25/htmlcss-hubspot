@@ -7,7 +7,7 @@
 
 body{
   font-family: Arial, sans-serif;
-  color: rgb(0, 29, 68);
+  color: rgba(0, 29, 68, 0.8);
 }
 
 .row::after{
@@ -201,6 +201,11 @@ main{
   padding-bottom: 25px;
 }
 
+.menu-powerful p{
+  margin: 0 28%;
+  padding-bottom: 50px;
+}
+
 .cube{
   max-width: 300px;
   max-height: 300px;
@@ -209,10 +214,152 @@ main{
 
 /* HubSpot CRM */
 
+.container-menu-crm{
+  margin: 0 10%;
+  width: 80%;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.float-main-left1{
+  width: 30%;
+  float: left;
+}
+
+.float-main-left1 img{
+  max-width: 150px;
+  max-height: 150px;
+  margin: 50px 100px 25px 170px;
+}
+
+.float-main-left1 button{
+  margin-left: 150px;
+  margin-bottom: 100px;
+}
+
+.float-main-left2{
+  width: 50%;
+  float: left;
+  position: relative;
+}
+
+.float-main-left2 h2{
+  font-size: 35px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.float-main-left2 p{
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.float-main-left2 h3{
+
+  font-size: 30px;
+  margin-bottom: 25px;
+
+}
+
+.float-main-left2 i{
+  color: rgb(255, 92, 0);
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.float-main-left2 span{
+  font-size: 20px;
+  margin-right: 40px;
+}
+#linea-lunga{
+  position: absolute;
+  width: 80%;
+  height: 1px;
+  top: 205px;
+  left: 45%;
+}
 
 /* Tre colonne di HUB */
 
+.container-menu-principale{
+  margin: 0 10%;
+  width: 80%;
+  background-color: rgb(216, 251, 254);
+  border: 1px solid rgb(216, 251, 254);
+  border-radius: 5px;
+}
 
+
+.margin{
+  margin-top: 50px;
+}
+
+.float-hub-left{
+  width: calc(100% / 3 - 50px);
+  float: left;
+  background-color: white;
+  border: 1px solid rgb(216, 251, 254);
+  border-radius: 5px;
+  box-shadow: 0 0 3px rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+.position1{
+  margin-right: 50px;
+
+}
+
+.position3{
+  margin-left: 50px;
+
+}
+
+.position3{
+  margin: 0 25px;
+}
+
+.img-main{
+  max-width: 150px;
+  max-height: 100px;
+}
+
+.margin-hub{
+  margin: 20px 70px;
+}
+
+.margin-hub h2{
+  font-size: 30px;
+  margin: 30px 0;
+}
+
+.margin-hub p{
+  font-size: 18px;
+  margin-bottom: 80px;
+}
+
+.margin-hub hr{
+  margin-bottom: 40px;
+}
+
+.margin-hub h3{
+  margin-bottom: 30px;
+  font-size: 22px;
+}
+
+.margin-hub h5{
+  font-size: 17px;
+  text-align: justify;
+}
+
+.margin-hub h5 i{
+  color: rgb(255, 92, 0);
+  margin-right: 10px;
+}
+
+.margin-hub button{
+  margin-top: 50px;
+}
 /* Statistica di HubSpot */
 
 
