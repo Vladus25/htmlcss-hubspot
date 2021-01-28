@@ -7,6 +7,7 @@
 
 body{
   font-family: Arial, sans-serif;
+  color: rgb(0, 29, 68);
 }
 
 .row::after{
@@ -21,6 +22,7 @@ header{
   position: fixed;
   width: 100%;
   height: 150px;
+  z-index: 999;
 }
 
 /* Header fisso parte 1 */
@@ -77,10 +79,10 @@ div .float-header-right{
 }
 
 #login{
-  border: 1px solid orange;
+  border: 1px solid rgb(255, 92, 0);
   background-color: white;
-  padding: 10px 5px;
-  color: orange;
+  padding: 10px 15px;
+  color: rgb(255, 92, 0);
   border-radius: 5px;
   font-weight: bold;
   font-size: 15px;
@@ -122,19 +124,88 @@ div .float-header-right{
 /* MAIN */
 
 main{
-  width: 100%;
-  height: 4000px;
-  background-color: red;
+
 }
 
 /* Better way to grow */
 
+.conteiner-jumbotron-first{
+ border-top-width: 140px;
+ border-top-style: solid;
+ position: relative;
+ width: 100%;
+ height: 1000px;
+ background-image: url("../img/jumbotron.png");
+ background-repeat: no-repeat;
+ background-position: right 0;
+ background-size: 100% 100%;
+}
 
-/* Blocco verde per separare section */
+.conteiner-grow{
+  margin: 5% 10% 0 10%;
+  width: 30%;
+  height: auto;
+}
 
+.conteiner-grow h1{
+  font-size: 52px;
+  padding-bottom: 30px;
+}
+
+.conteiner-grow p{
+  font-size: 18px;
+  padding-bottom: 30px;
+}
+
+.conteiner-grow button{
+  margin-bottom: 30px
+}
+.button-orange{
+  border: 1px solid rgb(255, 92, 0);
+  background-color: rgb(255, 92, 0);
+  padding: 20px 50px;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.linea-verde{
+  position: absolute;
+  height: 100px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  border-top: 3px solid rgb(0, 56, 9);
+  border-bottom: 3px solid rgb(0, 56, 9);
+  background-color: rgb(104, 222, 207);
+}
+
+/* Main parte centrale */
+
+.conteiner-center{
+  width: 100%;
+  height: auto;
+  background-color: rgb(216, 251, 254);
+}
 
 /* Powerful */
 
+.menu-powerful{
+  text-align: center;
+  padding-top: 50px;
+}
+
+.menu-powerful h2{
+  font-size: 35px;
+  padding-bottom: 25px;
+}
+
+.cube{
+  max-width: 300px;
+  max-height: 300px;
+  position: relative;
+}
 
 /* HubSpot CRM */
 
