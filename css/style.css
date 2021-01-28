@@ -186,7 +186,7 @@ main{
 .conteiner-center{
   width: 100%;
   height: auto;
-  background-color: rgb(216, 251, 254);
+  background-color: rgb(245, 248, 250);
 }
 
 /* Powerful */
@@ -285,8 +285,8 @@ main{
 .container-menu-principale{
   margin: 0 10%;
   width: 80%;
-  background-color: rgb(216, 251, 254);
-  border: 1px solid rgb(216, 251, 254);
+  background-color: rgb(245, 248, 250);
+  border: 1px solid rgb(245, 248, 250);
   border-radius: 5px;
 }
 
@@ -299,7 +299,7 @@ main{
   width: calc(100% / 3 - 50px);
   float: left;
   background-color: white;
-  border: 1px solid rgb(216, 251, 254);
+  border: 1px solid rgb(245, 248, 250);
   border-radius: 5px;
   box-shadow: 0 0 3px rgba(0,0,0,0.3);
   text-align: center;
