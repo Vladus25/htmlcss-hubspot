@@ -79,10 +79,10 @@ div .float-header-right{
 }
 
 #login{
-  border: 1px solid rgb(255, 92, 0);
+  border: 1px solid rgba(255, 92, 0, 0.8);
   background-color: white;
   padding: 10px 15px;
-  color: rgb(255, 92, 0);
+  color: rgba(255, 92, 0, 0.8);
   border-radius: 5px;
   font-weight: bold;
   font-size: 15px;
@@ -90,8 +90,8 @@ div .float-header-right{
 }
 
 #button{
-  border: 1px solid rgb(255, 92, 0);
-  background-color: rgb(255, 92, 0);
+  border: 1px solid rgba(255, 92, 0);
+  background-color: rgba(255, 92, 0, 0.8);
   padding: 10px 10px;
   color: white;
   border-radius: 5px;
@@ -161,8 +161,8 @@ main{
   margin-bottom: 30px
 }
 .button-orange{
-  border: 1px solid rgb(255, 92, 0);
-  background-color: rgb(255, 92, 0);
+  border: 1px solid rgba(255, 92, 0, 0.8);
+  background-color: rgba(255, 92, 0, 0.8);
   padding: 20px 50px;
   color: white;
   border-radius: 5px;
@@ -223,19 +223,19 @@ main{
 }
 
 .float-main-left1{
-  width: 30%;
+  width: 27%;
   float: left;
 }
 
 .float-main-left1 img{
   max-width: 150px;
   max-height: 150px;
-  margin: 50px 100px 25px 170px;
+  margin: 50px 100px 25px 120px;
 }
 
 .float-main-left1 button{
-  margin-left: 150px;
-  margin-bottom: 100px;
+  margin-left: 100px;
+  margin-bottom: 80px;
 }
 
 .float-main-left2{
@@ -257,13 +257,13 @@ main{
 
 .float-main-left2 h3{
 
-  font-size: 30px;
+  font-size: 25px;
   margin-bottom: 25px;
 
 }
 
 .float-main-left2 i{
-  color: rgb(255, 92, 0);
+  color: rgba(255, 92, 0, 0.8);
   margin-right: 10px;
   font-size: 18px;
 }
@@ -276,7 +276,7 @@ main{
   position: absolute;
   width: 80%;
   height: 1px;
-  top: 205px;
+  top: 200px;
   left: 45%;
 }
 
@@ -315,7 +315,7 @@ main{
 
 }
 
-.position3{
+.position2{
   margin: 0 25px;
 }
 
@@ -353,7 +353,7 @@ main{
 }
 
 .margin-hub h5 i{
-  color: rgb(255, 92, 0);
+  color: rgba(255, 92, 0, 0.8);
   margin-right: 10px;
 }
 
