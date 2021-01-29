@@ -7,7 +7,7 @@
 
 body{
   font-family: Arial, sans-serif;
-  color: rgba(0, 29, 68, 0.8);
+  color: rgba(0, 29, 68, 0.9);
 }
 
 .row::after{
@@ -420,15 +420,119 @@ main{
 .float-statistica-left img{
   margin: 15px 0;
 }
+
 /* Customers con imagini */
+
+.conteiner-main-last{
+  width: 100%;
+  height: auto;
+  background-color: rgb(245, 248, 250);
+}
+
+.customers-hub{
+  width: 80%;
+  margin: 0 10%;
+}
+
+.float-customers-left1{
+  width: 25%;
+  float: left;
+  text-align: center;
+  padding: 0 100px;
+  margin: 70px 0 0 0;
+}
+
+.float-customers-left1 h2{
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.float-customers-left1 p{
+  font-size: 16px;
+}
+
+.float-customers-left2{
+  width: 75%;
+  float: left;
+  margin: 70px 0 0 0;
+  padding-left: 250px;
+  text-align: left;
+}
+
+.display-line img{
+  display: inline-block;
+  max-width: 150px;
+  max-height: 100px;
+  margin: 0 5% 10px 0;
+}
+
+#img-margin-bottom-line1{
+  margin-bottom: 20px;
+}
+
+#img-margin-bottom-line2{
+  margin-bottom: 25px;
+}
 
 
 /* Start Growing */
+.float-growing-left{
+  width: 40%;
+  float: left;
+  margin-top: 120px;
+  margin-bottom: 50px;
+}
+
+.float-growing-left h2{
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.float-growing-left p{
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.float-growing-left button{
+  margin-bottom: 40px;
+}
+
+.float-growing-left h5{
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.float-growing-right{
+  width: 25%;
+  float: right;
+  margin-top: 60px;
+}
+
+.float-growing-right img{
+  max-width: 420px;
+  max-height: 420px;
+
+}
 
 /* FOOTER */
 
+.conteiner-footer{
+  width: 100%;
+  height: 300px;
+  background-color: #32495b;
+}
+
+.footer-hub{
+  width: 80%;
+  margin: 0 10%;
+  padding: 50px 0;
+}
 /* Informazioni del HubSpot */
 
+.float-footer-left{
+  width: 25%;
+  float: left;
+}
 
 /* Lingue */
 
