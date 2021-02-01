@@ -662,7 +662,7 @@ div .float-header-right{
   position: absolute;
   width: 300px;
   right: 10px;
-  bottom: 350px;
+  bottom: 415px;
   background-color: rgba(238, 236, 236, 0.8);
   border: 1px solid black;
   border-radius: 5px;
@@ -687,18 +687,19 @@ div .float-header-right{
 #nome-bot{
   color: white;
   font-size: 25px;
+  padding-bottom: 12px;
   display: inline-block;
   vertical-align: middle;
 }
 
 .chat-with-bot{
-  background-color: rgba(238, 236, 236, 0.8);
+  background-color: white;
   border: 1px solid black;
   border-radius: 5px;
 }
 
 .chat-with-bot img{
-  margin: 5px 0 0 25px;
+  margin: 10px 0 0 25px;
   max-width: 40px;
   max-height: 40px;
 
@@ -714,10 +715,10 @@ div .float-header-right{
 
 .text-bot{
   margin-top: 10px;
-  padding: 5px;
+  padding: 10px;
   font-size: 15px;
-  background-color: white;
-  border: 1px solid black;
+  background-color: rgb(217, 217, 217);
+  border: 1px solid rgb(217, 217, 217);
   border-radius: 10px;
 }
 
@@ -726,11 +727,10 @@ div .float-header-right{
 }
 
 .button-help{
-  border: 1px solid rgba(255, 54, 0, 0.8);
-  background-color: rgba(255, 54, 0, 0.8);
+  border: 1px solid black;
+  background-color: white;
   padding: 5px;
-  color: white;
+  color: rgba(0, 29, 68, 0.9);
   border-radius: 5px;
-  font-weight: bold;
-  font-size: 15px;
+  font-size: 12px;
 }
