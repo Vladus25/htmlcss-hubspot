@@ -25,6 +25,32 @@ header{
   z-index: 999;
 }
 
+/* Chevron information */
+
+.position-relative{
+  position: relative;
+}
+
+.chevron-information{
+  position: absolute;
+  display: none;
+  background-color: rgba(250, 247, 247, 0.8);
+  padding: 0 10px 10px 10px;
+}
+
+.chevron-information li{
+  list-style-type: none;
+  margin-top: 5px;
+}
+
+.position-relative:hover .chevron-information{
+  display: block;
+}
+
+.chevron-information a:hover{
+  text-decoration: underline;
+}
+
 /* Header fisso parte 1 */
 
 .back-color-blu{
@@ -74,8 +100,16 @@ div .float-header-right{
   font-size: 18px;
 }
 
-#search{
+.search i{
   color: rgba(0, 104, 143, 0.71);
+}
+
+.search, .search:hover #search-invisible{
+  display: inline-block;
+}
+
+#search-invisible{
+  display: none;
 }
 
 #login{
