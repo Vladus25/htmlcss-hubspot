@@ -605,3 +605,98 @@ div .float-header-right{
 .float-footer-pie-right a:first-child{
   margin-right: 30px;
 }
+
+/* Help */
+
+.help{
+  position: fixed;
+  font-size: 35px;
+  background-color: rgba(0, 29, 68, 0.9);
+  border-radius: 50%;
+  padding: 15px;
+  z-index: 950;
+  bottom: 20px;
+  right: 20px;
+}
+
+.help i{
+  color: white;
+}
+
+.chating{
+  display: none;
+  position: absolute;
+  width: 300px;
+  right: 10px;
+  bottom: 350px;
+  background-color: rgba(238, 236, 236, 0.8);
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.help:hover .chating{
+  display: block;
+}
+
+
+.bot-chat{
+  background-color: rgba(0, 29, 68, 0.9);
+  height: 70px;
+  display: block;
+}
+
+.bot-chat img{
+  max-width: 60px;
+  max-height: 60px;
+}
+
+#nome-bot{
+  color: white;
+  font-size: 25px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.chat-with-bot{
+  background-color: rgba(238, 236, 236, 0.8);
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.chat-with-bot img{
+  margin: 5px 0 0 25px;
+  max-width: 40px;
+  max-height: 40px;
+
+}
+.text-middle{
+  width: 260px;
+  padding: 0px 20px 20px 50px;
+}
+
+.text-bot{
+  font-size: 20px;
+}
+
+.text-bot{
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 15px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.text-bot:first-child{
+  margin-top: 0px;
+}
+
+.button-help{
+  border: 1px solid rgba(255, 54, 0, 0.8);
+  background-color: rgba(255, 54, 0, 0.8);
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 15px;
+}
